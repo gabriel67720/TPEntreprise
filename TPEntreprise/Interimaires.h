@@ -1,5 +1,6 @@
 #pragma once
-class Interimaires
+#include"Techniciens.h"
+class Interimaires: public Techniciens
 {
 private :
 	float tauxHorraires;

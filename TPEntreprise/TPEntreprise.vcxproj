@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="Commerciaux.cpp" />
     <ClCompile Include="Employes.cpp" />
+    <ClCompile Include="Entreprises.cpp" />
     <ClCompile Include="Interimaires.cpp" />
     <ClCompile Include="Representants.cpp" />
     <ClCompile Include="Techniciens.cpp" />
@@ -162,6 +163,7 @@
   <ItemGroup>
     <ClInclude Include="Commerciaux.h" />
     <ClInclude Include="Employes.h" />
+    <ClInclude Include="Entreprises.h" />
     <ClInclude Include="Interimaires.h" />
     <ClInclude Include="Representants.h" />
     <ClInclude Include="Techniciens.h" />

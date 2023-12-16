@@ -1,5 +1,6 @@
 #pragma once
-class Representants
+#include"Commerciaux.h"
+class Representants : public Commerciaux
 {
 private :
 	float fraisDeplacements;

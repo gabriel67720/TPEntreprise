@@ -1,5 +1,6 @@
 #pragma once
-class Vendeurs
+#include "Commerciaux.h"
+class Vendeurs : public Commerciaux	
 {
 };
 
