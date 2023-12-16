@@ -22,6 +22,11 @@ string Employes::getPrenom()
 	return prenom;
 }
 
+int Employes::getAge()
+{
+	return age ;
+}
+
 void Employes::setNom(string n)
 {
 	nom = n;
@@ -30,4 +35,9 @@ void Employes::setNom(string n)
 void Employes::setPrenom(string p)
 {
 	prenom = p;
+}
+
+void Employes::setAge(int a)
+{
+	age = a;
 }

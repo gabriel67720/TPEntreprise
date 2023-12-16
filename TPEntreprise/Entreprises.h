@@ -7,6 +7,7 @@
 #include"Vendeurs.h";
 #include <iostream>
 using namespace std;
+
 class Entreprises
 {
 private:
@@ -15,24 +16,25 @@ private:
 	Representants representants[2];
 	Techniciens techniciens[3];
 	Interimaires interimaires[5];
+	int cptvendeur= 0, cptrepresentant= 0, cpttech= 0, cptinterim = 0;
 public:
+
+	void increCptvendeur();
 	void setNom(string n);
 	string getNom();
 
 	void setVendeurs(Vendeurs v);
 	string getVendeurs();
-	void compteurVendeur();
+	
 
 	void setTechnicien(Techniciens t);
 	string getTechnicien();
-	void compteurTechnicien();
 
 	void setInterimaire(Interimaires i);
 	string getInterimaire();
-	void compteurInterimaire();
 
 	void setRepresentant(Representants r);
 	string getRepresentant();
-	void compteurRepresentant();
+
 };
 

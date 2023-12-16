@@ -3,7 +3,7 @@
 using namespace std;
 class Employes
 {
-private:
+protected:
 	string nom;
 	string prenom;
 	int age;
@@ -13,8 +13,9 @@ public:
 	void affiche();
 	string getNom();
 	string getPrenom();
+	int getAge();
 	void setNom(string n);
 	void setPrenom(string p);
-
+	void setAge(int a);
 };
 
