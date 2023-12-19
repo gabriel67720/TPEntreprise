@@ -24,7 +24,7 @@ public:
 	string getNom();
 
 	void setVendeurs(Vendeurs v);
-	string getVendeurs();
+	string afficheVendeurs();
 	
 
 	void setTechnicien(Techniciens t);

@@ -18,11 +18,11 @@ void Entreprises::setVendeurs(Vendeurs v)
 	cptvendeur = cptvendeur + 1;
 }
 
-string Entreprises::getVendeurs()
+string Entreprises::afficheVendeurs()
 {
-	cout << "Voici les vendeurs dans l'entreprise:";
-	cout << vendeurs[0] << endl;
-	
-	
+	for (int cpt=0; cpt =< cptvendeur; cpt++ )
+	{
+		cout << 
+	}
 }
 
